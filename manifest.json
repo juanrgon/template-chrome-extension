@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "My extension",
+    "version": "1.0",
+    "description": "My Extension",
+    "content_scripts": [
+        {
+            "js": [
+                "dist/extension.js"
+            ],
+            "matches": [
+                "https://*"
+            ]
+        }
+    ]
+}
